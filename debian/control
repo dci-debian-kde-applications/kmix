@@ -1,0 +1,28 @@
+Source: kmix
+Section: kde
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Pino Toscano <pino@debian.org>
+Build-Depends: kde-sc-dev-latest (>= 4:4.8.4),
+ cmake, debhelper (>= 7.3.16), pkg-kde-tools (>= 0.12),
+ kdelibs5-dev (>= 4:4.8),
+ libasound2-dev [linux-any],
+ libpulse-dev (>= 0.9.12),
+ libcanberra-dev,
+Standards-Version: 3.9.3
+Homepage: http://www.kde.org/
+Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kmix.git
+Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kmix.git
+
+Package: kmix
+Section: sound
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Provides: x-audio-mixer
+Breaks: kdemultimedia-dev (<< 4:4.10)
+Replaces: kdemultimedia-dev (<< 4:4.10)
+Description: volume control and mixer
+ KMix is an audio device mixer, used to adjust volume, select recording inputs,
+ and set other hardware options.
+ .
+ This package is part of the KDE multimedia module.
