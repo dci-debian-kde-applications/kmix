@@ -4,11 +4,12 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Pino Toscano <pino@debian.org>,
            Maximiliano Curia <maxy@debian.org>
-Build-Depends: kde-sc-dev-latest (>= 4:4.10),
+Build-Depends: kde-sc-dev-latest (>= 4:4.11),
  cmake, debhelper (>= 9), pkg-kde-tools (>= 0.12),
- kdelibs5-dev (>= 4:4.10),
+ kdelibs5-dev (>= 4:4.11),
  libasound2-dev [linux-any],
  libpulse-dev (>= 0.9.12),
+ libglib2.0-dev,
  libcanberra-dev,
 Standards-Version: 3.9.4
 Homepage: http://www.kde.org/
