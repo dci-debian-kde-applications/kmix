@@ -1,6 +1,7 @@
 kmix (4:4.11.3-2) UNRELEASED; urgency=medium
 
   * Do not disable an empty test set.
+  * Bump Standards-Version to 3.9.5, no changes needed.
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 29 Jan 2014 17:53:31 +0100
 

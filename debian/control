@@ -11,7 +11,7 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.11),
  libpulse-dev (>= 0.9.12),
  libglib2.0-dev,
  libcanberra-dev,
-Standards-Version: 3.9.4
+Standards-Version: 3.9.5
 Homepage: http://www.kde.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kmix.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kmix.git
