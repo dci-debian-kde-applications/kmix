@@ -1,9 +1,9 @@
-kmix (4:4.13.1-1) UNRELEASED; urgency=medium
+kmix (4:4.13.1-1) unstable; urgency=medium
 
   * New upstream release.
   * New patch: kubuntu_script-interpreter.diff
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 17 May 2014 18:29:53 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 17 May 2014 19:05:11 +0200
 
 kmix (4:4.12.2-2) unstable; urgency=medium
 
