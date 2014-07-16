@@ -1,8 +1,8 @@
-kmix (4:4.13.2-1) UNRELEASED; urgency=medium
+kmix (4:4.13.3-1) UNRELEASED; urgency=medium
 
   * New upstream release.
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 01 Jul 2014 16:59:48 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 16 Jul 2014 13:19:00 +0200
 
 kmix (4:4.13.1-1) unstable; urgency=medium
 
