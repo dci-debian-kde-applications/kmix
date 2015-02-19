@@ -7,17 +7,11 @@ kmix (4:14.12.2-1~) UNRELEASED; urgency=medium
 kmix (4:14.12.2-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
-  * Remove unstable from watch file, uscan fails with 
+  * Remove unstable from watch file, uscan fails with
     remote site does not even have current version
-
- -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 10 Feb 2015 09:37:29 -0800
-
-kmix (4:14.12.0-0ubuntu1) UNRELEASED; urgency=medium
-
-  * New upstream release
   * Remove kdelibs5-dev depend version as there was not a new release.
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 12 Dec 2014 10:22:11 -0800
+ -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 10 Feb 2015 09:37:29 -0800
 
 kmix (4:14.11.97-0ubuntu1) vivid; urgency=medium
 
@@ -27,11 +21,11 @@ kmix (4:14.11.97-0ubuntu1) vivid; urgency=medium
 
 kmix (4:14.11.95-0ubuntu1) vivid; urgency=medium
 
-  * Initial release for KDE applications 14.12 series 
+  * Initial release for KDE applications 14.12 series
    - Change maintainer to Debian/Kubuntu
-   - Fix Watch file applications locations 
+   - Fix Watch file applications locations
    - Fix VCS for new kde-applications location
-  * Debian merge, remaining changes: 
+  * Debian merge, remaining changes:
    - Keep kmix_showeverywhere.diff
    - Keep kmix.links
 
@@ -264,7 +258,7 @@ kmix (4:4.10.80-0ubuntu1) saucy; urgency=low
   * New upstream release
 
   [ Philip Muškovac ]
-  * Refresh kmix_showeverywhere.diff 
+  * Refresh kmix_showeverywhere.diff
 
  -- Rohan Garg <rohangarg@kubuntu.org>  Fri, 21 Jun 2013 01:24:49 +0100
 
@@ -409,4 +403,3 @@ kmix (4:4.8.80-0ubuntu1) quantal; urgency=low
   * Initial release
 
  -- Philip Muškovac <yofel@kubuntu.org>  Thu, 07 Jun 2012 14:22:19 +0200
-
