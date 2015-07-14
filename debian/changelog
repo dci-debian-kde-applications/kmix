@@ -6,8 +6,7 @@ kmix (4:15.04.3-1~) UNRELEASED; urgency=medium
 
   [ Jeremy Lainé ]
   * New upstream release (15.04.3).
-  * Build against KF5.
-  * Remove kdelibs5-dev from build dependencies.
+  * Explicitly build against KDE4.
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 05 Jun 2015 11:16:27 +0200
 

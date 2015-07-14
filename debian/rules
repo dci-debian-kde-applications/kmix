@@ -3,4 +3,4 @@
 include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
 
 override_dh_auto_configure:
-	$(overridden_command) -- -DKMIX_KF5_BUILD=1
+	$(overridden_command) -- -DKMIX_KF5_BUILD=0
