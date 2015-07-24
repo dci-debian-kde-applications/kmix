@@ -1,4 +1,4 @@
-kmix (4:15.04.3-1~) UNRELEASED; urgency=medium
+kmix (4:15.04.3-1) unstable; urgency=medium
 
   [ Maximiliano Curia ]
   * New upstream release (15.04.0).
@@ -7,8 +7,9 @@ kmix (4:15.04.3-1~) UNRELEASED; urgency=medium
   [ Jeremy Lainé ]
   * New upstream release (15.04.3).
   * Explicitly build against KDE4.
+  * Add myself to uploaders.
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 05 Jun 2015 11:16:27 +0200
+ -- Jeremy Lainé <jeremy.laine@m4x.org>  Fri, 24 Jul 2015 14:10:00 +0200
 
 kmix (4:14.12.2-1) experimental; urgency=medium
 
