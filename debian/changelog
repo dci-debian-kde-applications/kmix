@@ -1,3 +1,9 @@
+kmix (4:15.08.0-0ubuntu2) wily; urgency=medium
+
+  * Add upstream_fix-kmixui.rc-install-location.diff
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 26 Aug 2015 21:06:13 +0100
+
 kmix (4:15.08.0-0ubuntu1) wily; urgency=medium
 
   * new upstream release
