@@ -1,3 +1,11 @@
+kmix (4:15.08.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release (15.08.0).
+  * Add upstream_fix-kmixui.rc-install-location.diff (from Ubuntu).
+
+ -- Jeremy Lainé <jeremy.laine@m4x.org>  Fri, 04 Sep 2015 00:52:39 +0200
+
 kmix (4:15.04.3-1) unstable; urgency=medium
 
   [ Maximiliano Curia ]
