@@ -1,3 +1,9 @@
+kmix (4:15.08.0-0ubuntu3) wily; urgency=medium
+
+  * Add kubuntu_cmake-policy.diff to fix compilation
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 07 Sep 2015 13:49:30 +0100
+
 kmix (4:15.08.0-0ubuntu2) wily; urgency=medium
 
   * Add upstream_fix-kmixui.rc-install-location.diff
