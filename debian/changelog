@@ -1,6 +1,7 @@
 kmix (4:15.08.1-0ubuntu1) UNRELEASED; urgency=medium
 
-  * New upstream release (15.18.1)
+  * New upstream release (15.08.1)
+  * Removed upstream_fix-kmixui.rc-install-location.diff as applied upstream
 
  -- Clive Johnston <clivejo@aol.com>  Wed, 16 Sep 2015 23:51:32 +0100
 
