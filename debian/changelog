@@ -1,6 +1,7 @@
 kmix (4:15.08.1-1~) UNRELEASED; urgency=medium
 
   * New upstream release (15.08.1).
+  * Drop upstream patch: upstream_fix-kmixui.rc-install-location.diff
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 17 Sep 2015 19:55:08 +0200
 
