@@ -1,0 +1,21 @@
+Description: set cmake policy to allow compilation
+ new cmake policy means kmix can't compile, set to old policy
+Author: Jonathan Riddell
+Origin: me
+Forwarded: will send to upstream maintainer
+Last-Update: 2015-09-07
+---
+This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
+Index: kmix-15.08.0/CMakeLists.txt
+===================================================================
+--- kmix-15.08.0.orig/CMakeLists.txt
++++ kmix-15.08.0/CMakeLists.txt
+@@ -27,6 +27,8 @@ if(POLICY CMP0046)
+   cmake_policy (SET CMP0046 NEW)
+ endif()
+ 
++cmake_policy (SET CMP0046 OLD)
++
+ SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11") 
+ 
+ if (KMIX_KF5_BUILD)

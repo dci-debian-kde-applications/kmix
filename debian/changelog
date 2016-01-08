@@ -4,12 +4,31 @@ kmix (4:15.12.0-1~) UNRELEASED; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 16 Dec 2015 16:16:38 +0100
 
+kmix (4:15.12.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release
+
+ -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 14:04:17 +0000
+
+kmix (4:15.08.2-0ubuntu1) wily; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 14 Oct 2015 12:34:59 +0100
+
 kmix (4:15.08.1-1) unstable; urgency=medium
 
   * New upstream release (15.08.1).
   * Drop upstream patch: upstream_fix-kmixui.rc-install-location.diff
 
  -- Maximiliano Curia <maxy@debian.org>  Sat, 19 Sep 2015 19:10:51 +0200
+
+kmix (4:15.08.1-0ubuntu1) wily; urgency=medium
+
+  * New upstream release (15.08.1)
+  * Removed upstream_fix-kmixui.rc-install-location.diff as applied upstream
+
+ -- Clive Johnston <clivejo@aol.com>  Tue, 22 Sep 2015 17:09:32 +0100
 
 kmix (4:15.08.0-1) unstable; urgency=medium
 
@@ -18,6 +37,30 @@ kmix (4:15.08.0-1) unstable; urgency=medium
   * Add upstream_fix-kmixui.rc-install-location.diff (from Ubuntu).
 
  -- Jeremy Lainé <jeremy.laine@m4x.org>  Fri, 04 Sep 2015 00:52:39 +0200
+
+kmix (4:15.08.0-0ubuntu3) wily; urgency=medium
+
+  * Add kubuntu_cmake-policy.diff to fix compilation
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 07 Sep 2015 13:49:30 +0100
+
+kmix (4:15.08.0-0ubuntu2) wily; urgency=medium
+
+  * Add upstream_fix-kmixui.rc-install-location.diff
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 26 Aug 2015 21:06:13 +0100
+
+kmix (4:15.08.0-0ubuntu1) wily; urgency=medium
+
+  * new upstream release
+
+ -- Clive Johnston <clivejo@aol.com>  Wed, 26 Aug 2015 17:31:02 +0100
+
+kmix (4:15.07.90-0ubuntu1) wily; urgency=medium
+
+  * new upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 18 Aug 2015 10:35:30 +0100
 
 kmix (4:15.04.3-1) unstable; urgency=medium
 
@@ -31,6 +74,26 @@ kmix (4:15.04.3-1) unstable; urgency=medium
   * Add myself to uploaders.
 
  -- Jeremy Lainé <jeremy.laine@m4x.org>  Fri, 24 Jul 2015 14:10:00 +0200
+
+kmix (4:15.04.2-0ubuntu1) wily; urgency=medium
+
+  [ Scarlett Clark ]
+  * New upstream release
+  * Fix kdelibs version 
+  * New upstream release
+
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 09 Jun 2015 19:10:33 +0200
+
+kmix (4:14.12.3-0ubuntu1) vivid; urgency=medium
+
+  * Add back kdelibs parent version depend 
+  * New upstream release
+  * Fix the kdelibs5 version in build depends. 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 13 Mar 2015 14:34:06 -0700
 
 kmix (4:14.12.2-1) experimental; urgency=medium
 
