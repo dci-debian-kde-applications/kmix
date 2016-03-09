@@ -1,9 +1,9 @@
-kmix (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
+kmix (4:15.12.1-0ubuntu1) xenial; urgency=medium
 
   * New upstream release
   * Merge with Debian
 
- -- Clive Johnston <clivejo@aol.com>  Sat, 06 Feb 2016 16:40:17 +0000
+ -- Clive Johnston <clivejo@aol.com>  Wed, 09 Mar 2016 10:53:07 +0100
 
 kmix (4:15.12.0-1) experimental; urgency=medium
 
