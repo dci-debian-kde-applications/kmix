@@ -1,11 +1,12 @@
-kmix (4:15.12.0-2~1.gbpa35310) UNRELEASED; urgency=medium
+kmix (4:16.04.0-1~1.gbpa04adc) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @a35310ac39f772d59d80bf5784bc0b953294657e **
+  ** SNAPSHOT build @a04adc427b1af6a5d63ffc5508fff428131622cb **
 
   * Bump Standards-Version to 3.9.8
   * Update build-deps and deps with the info from cmake
+  * Refresh patches
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 11:37:46 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 21 Apr 2016 01:37:13 +0200
 
 kmix (4:15.12.0-1) experimental; urgency=medium
 
