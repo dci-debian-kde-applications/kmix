@@ -1,16 +1,16 @@
-Description: set cmake policy to allow compilation
- new cmake policy means kmix can't compile, set to old policy
-Author: Jonathan Riddell
-Origin: me
-Forwarded: will send to upstream maintainer
-Last-Update: 2015-09-07
+From: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Date: Thu, 21 Apr 2016 01:37:11 +0200
+Subject: kubuntu_cmake-policy
+
 ---
-This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
-Index: kmix-15.08.0/CMakeLists.txt
-===================================================================
---- kmix-15.08.0.orig/CMakeLists.txt
-+++ kmix-15.08.0/CMakeLists.txt
-@@ -27,6 +27,8 @@ if(POLICY CMP0046)
+ CMakeLists.txt | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 94fe651..fe72468 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -28,6 +28,8 @@ if(POLICY CMP0046)
    cmake_policy (SET CMP0046 NEW)
  endif()
  
