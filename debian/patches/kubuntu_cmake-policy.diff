@@ -7,7 +7,7 @@ Subject: kubuntu_cmake-policy
  1 file changed, 2 insertions(+)
 
 diff --git a/CMakeLists.txt b/CMakeLists.txt
-index 94fe651..fe72468 100644
+index 458eb9c..3aee4d3 100644
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
 @@ -28,6 +28,8 @@ if(POLICY CMP0046)
