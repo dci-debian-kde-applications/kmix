@@ -1,3 +1,11 @@
+kmix (4:16.04.1-2~1.gbp3ea66d) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @3ea66daffdff0c2fedf89d56e1e28c730421518f **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 21 May 2016 20:37:28 +0200
+
 kmix (4:16.04.1-1) unstable; urgency=medium
 
   [ Automatic packaging ]
