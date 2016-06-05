@@ -1,0 +1,15 @@
+--- kmix-15.08.1.orig/CMakeLists.txt
++++ kmix-15.08.1/CMakeLists.txt
+@@ -29,7 +29,11 @@ if(POLICY CMP0046)
+   cmake_policy (SET CMP0046 NEW)
+ endif()
+ 
+-SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11") 
++SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
++
++if (WITH_MIPS_BUILD)
++   SET(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -Wl,--no-as-needed")
++endif(WITH_MIPS_BUILD)
+ 
+ if (KMIX_KF5_BUILD)
+ 	find_package(ECM 5.10.0 REQUIRED NO_MODULE)

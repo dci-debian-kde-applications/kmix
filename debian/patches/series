@@ -1,2 +1,3 @@
 kmix_showeverywhere.diff
 kubuntu_cmake-policy.diff
+mips-no-as-needed-workaround.diff
