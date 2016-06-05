@@ -1,10 +1,16 @@
-kmix (4:16.04.1-2~1.gbp3ea66d) UNRELEASED; urgency=medium
+kmix (4:16.04.1-2) unstable; urgency=medium
 
-  ** SNAPSHOT build @3ea66daffdff0c2fedf89d56e1e28c730421518f **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 21 May 2016 20:37:28 +0200
+  [ Jurica Stanojkovic ]
+  * Fix assertion fail error on mips.
+    Thanks to Chris Lamb for the report and Jurica Stanojkovic for the patch
+    (Closes: 799992)
+
+  [ Maximiliano Curia ]
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 05 Jun 2016 17:06:51 +0200
 
 kmix (4:16.04.1-1) unstable; urgency=medium
 
