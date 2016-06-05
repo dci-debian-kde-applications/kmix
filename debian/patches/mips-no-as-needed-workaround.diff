@@ -1,8 +1,8 @@
---- kmix-15.08.1.orig/CMakeLists.txt
-+++ kmix-15.08.1/CMakeLists.txt
-@@ -29,7 +29,11 @@ if(POLICY CMP0046)
-   cmake_policy (SET CMP0046 NEW)
- endif()
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -30,7 +30,11 @@
+ 
+ cmake_policy (SET CMP0046 OLD)
  
 -SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11") 
 +SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
