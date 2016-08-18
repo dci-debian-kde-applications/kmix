@@ -1,6 +1,16 @@
+From: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Date: Thu, 18 Aug 2016 19:37:14 +0200
+Subject: mips-no-as-needed-workaround
+
+---
+ CMakeLists.txt | 6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 3aee4d3..16e078c 100644
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
-@@ -30,7 +30,11 @@
+@@ -30,7 +30,11 @@ endif()
  
  cmake_policy (SET CMP0046 OLD)
  
