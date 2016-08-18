@@ -1,3 +1,11 @@
+kmix (4:16.08.0-1~1.gbpd4b455) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @d4b45546a2dcd43d37f088a02b6e42ec950f48df **
+
+  * Refresh patches
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 18 Aug 2016 19:37:16 +0200
+
 kmix (4:16.04.1-2) unstable; urgency=medium
 
   [ Automatic packaging ]
