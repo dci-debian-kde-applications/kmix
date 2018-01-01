@@ -2,9 +2,5 @@
 
 include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 
-MIPS_BUILD = OFF
-ifneq (,$(filter $(DEB_HOST_ARCH), mips mipsel mips64 mips64el))
-  MIPS_BUILD = ON
-endif
 override_dh_auto_configure:
-	$(overridden_command) -- -DKMIX_KF5_BUILD=0 -DWITH_MIPS_BUILD:BOOL=$(MIPS_BUILD)
+	$(overridden_command) -- -DKMIX_KF5_BUILD=0
