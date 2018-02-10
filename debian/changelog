@@ -13,6 +13,7 @@ kmix (4:17.12.2-0r1) UNRELEASED; urgency=medium
   * Use the right makefile class:
     - use debian-qt-kde.mk v3
     - bump the pkg-kde-tools build dependency to >= 0.15.16
+  * Stop passing -DKMIX_KF5_BUILD=0 to cmake, as kmix is now only Qt5/KF5.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 10 Feb 2018 13:26:16 +0100
 
