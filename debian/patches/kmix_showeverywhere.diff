@@ -2,13 +2,13 @@ Description: show kmix in the menus of other desktop environments
  The patch remove OnlyShowIn=KDE from kmix.desktop
 Author: Modestas Vainius <modax@debian.org>
 Forwarded: no
-Last-Update: 2013-06-17
+Last-Update: 2018-02-10
 
---- a/kmix.desktop
-+++ b/kmix.desktop
+--- a/org.kde.kmix.desktop
++++ b/org.kde.kmix.desktop
 @@ -1,7 +1,6 @@
  [Desktop Entry]
- Exec=kmix -caption %c %i
+ Exec=kmix -qwindowtitle "%c" %i
  X-DocPath=kmix/index.html
 -OnlyShowIn=KDE;
  Type=Application
