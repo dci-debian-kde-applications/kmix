@@ -17,6 +17,8 @@ kmix (4:17.12.2-0r1) UNRELEASED; urgency=medium
   * Break/replace against kde-l10n that ships translations.
   * Update the patches:
     - kmix_showeverywhere.diff: refresh
+  * Remove symlinking of the desktop autostart, since they are now installed
+    in the correct location.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 10 Feb 2018 13:26:16 +0100
 
