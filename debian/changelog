@@ -19,6 +19,7 @@ kmix (4:17.12.2-0r1) UNRELEASED; urgency=medium
     - kmix_showeverywhere.diff: refresh
   * Remove symlinking of the desktop autostart, since they are now installed
     in the correct location.
+  * Use https for Format in copyright.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 10 Feb 2018 13:26:16 +0100
 
