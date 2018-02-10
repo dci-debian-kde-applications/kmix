@@ -10,6 +10,9 @@ kmix (4:17.12.2-0r1) UNRELEASED; urgency=medium
       libkf5i18n-dev, libkf5iconthemes-dev, kinit-dev, libkf5notifications-dev,
       libkf5plasma-dev, libkf5solid-dev, libkf5widgetsaddons-dev,
       libkf5windowsystem-dev, and libkf5xmlgui-dev
+  * Use the right makefile class:
+    - use debian-qt-kde.mk v3
+    - bump the pkg-kde-tools build dependency to >= 0.15.16
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 10 Feb 2018 13:26:16 +0100
 
