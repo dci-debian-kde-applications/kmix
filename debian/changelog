@@ -2,6 +2,14 @@ kmix (4:17.12.2-0r1) UNRELEASED; urgency=medium
 
   [ Pino Toscano ]
   * New upstream release.
+  * Update the build dependencies following the port to Frameworks:
+    - remove kde-sc-dev-latest, and kdelibs5-dev
+    - add extra-cmake-modules, qtbase5-dev, libkf5completion-dev,
+      libkf5config-dev, libkf5configwidgets-dev, libkf5crash-dev,
+      libkf5dbusaddons-dev, libkf5doctools-dev, libkf5globalaccel-dev,
+      libkf5i18n-dev, libkf5iconthemes-dev, kinit-dev, libkf5notifications-dev,
+      libkf5plasma-dev, libkf5solid-dev, libkf5widgetsaddons-dev,
+      libkf5windowsystem-dev, and libkf5xmlgui-dev
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 10 Feb 2018 13:26:16 +0100
 
