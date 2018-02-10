@@ -1,0 +1,6 @@
+kmix: package-name-doesnt-match-sonames libkdeinit5-kmix libkdeinit5-kmixctrl
+kmix: shlib-without-versioned-soname usr/lib/*/libkdeinit5_kmixctrl.so libkdeinit5_kmixctrl.so
+kmix: shlib-without-versioned-soname usr/lib/*/libkdeinit5_kmix.so libkdeinit5_kmix.so
+kmix: package-must-activate-ldconfig-trigger usr/lib/*/libkdeinit5_kmixctrl.so
+# private library
+kmix: no-symbols-control-file
