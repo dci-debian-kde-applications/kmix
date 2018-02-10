@@ -1,3 +1,10 @@
+kmix (4:17.12.2-0r1) UNRELEASED; urgency=medium
+
+  [ Pino Toscano ]
+  * New upstream release.
+
+ -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 10 Feb 2018 13:26:16 +0100
+
 kmix (4:17.08.3-1) unstable; urgency=medium
 
   * New upstream release.
