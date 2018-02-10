@@ -38,8 +38,8 @@ Section: sound
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Provides: x-audio-mixer
-Breaks: kdemultimedia-dev (<< 4:4.10)
-Replaces: kdemultimedia-dev (<< 4:4.10)
+Breaks: ${kde-l10n:all}, kdemultimedia-dev (<< 4:4.10)
+Replaces: ${kde-l10n:all}, kdemultimedia-dev (<< 4:4.10)
 Description: volume control and mixer
  KMix is an audio device mixer, used to adjust volume, select recording inputs,
  and set other hardware options.
